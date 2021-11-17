@@ -1,3 +1,0 @@
-crreate website structure (html)
-add colors and vibrance(css)
-add dynamism(js)
