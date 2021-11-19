@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+.navbar{
+	background: crimson;
+	position: fixed;
+	width: 100%;
+    z-index:10;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar .max-width{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: auto;
+}
+.navbar ul{
+	list-style: none;
+	display: inline-block;
+}
+.navbar .menu li{
+	display: inline-block;
+}
+.navbar .menu li a{
+	display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+/*.menu-btn{
+	color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    /*display: none;*/
+}
+.title{
+	position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+section{
+	padding:  100px 0px;
+}
+
+.home{
+	display: flex;
+	background: url("https://www.teahub.io/photos/full/8-81348_adh-paysage-3d-name-wallpapers-make-your-name.jpg") no-repeat center;
+	font-family: 'Ubuntu',sans-serif;
+	background-size: cover;
+	min-height: 500px;
+	height: 100vh;
+}
+.max-width{
+	display: flex;
+	margin: auto;
+	width: 60%;
+	height: 80%;
+}
+.home-content{
+	margin :auto;
+	display: block;
+	font-family: 'Ubuntu' ,sans-serif;
+}
+
+.dispTxt1{
+	font-size: 85px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.dispTxt2, .dispTxt0{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 45px;
+	font-weight: normal;
+	color: #ffffff;
+}
+.home-content span{
+	font-size: 50px;
+	font-weight: bold;
+	color:  crimson;
+}
