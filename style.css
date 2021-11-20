@@ -147,7 +147,7 @@ section{
 	border-radius: 15px;
 }
 .about .max-width .about-contents .contents .resume-link:hover{
-	background-color: #ffffff;
+	background: none;
 	color: crimson;
 }
 .about .title{
@@ -156,5 +156,45 @@ section{
 	text-align: center;
 	font-size: 40px;
 	font-weight: 500;
-	color: #000000s;
+	color: #000000;
 }
+/*---------------------------------------------styling qualification section---------------------------------------------*/
+.qualification{
+	padding: 90px;
+	font-family: 'Ubuntu',sans-serif;
+	min-height: 500px;
+	height: 90vh;
+	background-color: #000000;
+}
+.qualification .max-width{
+	width: 80%;
+	height: 100%;
+	margin :auto;
+}
+.qualification .title{
+	margin-bottom: 45px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	color: #ffffff;
+}
+.qualification .max-width .edu-table{
+	color: #ffffff;
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 350;
+}
+.qualification .max-width .edu-table tr{
+	padding: 20px;
+	margin: 20px;
+}
+.qualification .max-width .edu-table td{
+	padding: 20px;
+	margin: 20px;
+}
+.qualification .max-width .edu-table .name{
+	text-align: center;
+	font-weight: bolder;
+}
+/*---------------------------------------------styling qualification section---------------------------------------------*/
