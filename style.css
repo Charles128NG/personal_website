@@ -8,6 +8,11 @@
 html{
 	scroll-behavior: smooth;
 }
+section{
+	padding:  100px 0px;
+}
+/*-----------------------------------------------------------------------------------------*/
+/* Styling the navbar*/
 .navbar{
 	background: crimson;
 	position: fixed;
@@ -45,6 +50,7 @@ html{
     cursor: pointer;
     /*display: none;*/
 }
+
 .title{
 	position: relative;
     text-align: center;
@@ -54,10 +60,7 @@ html{
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
-section{
-	padding:  100px 0px;
-}
-
+/*----------------------------------------------------Styling the home section----------------------------------------------------*/
 .home{
 	display: flex;
 	background: url("https://www.teahub.io/photos/full/8-81348_adh-paysage-3d-name-wallpapers-make-your-name.jpg") no-repeat center;
@@ -66,7 +69,7 @@ section{
 	min-height: 500px;
 	height: 100vh;
 }
-.max-width{
+.home .max-width{
 	display: flex;
 	margin: auto;
 	width: 60%;
@@ -94,4 +97,64 @@ section{
 	font-size: 50px;
 	font-weight: bold;
 	color:  crimson;
+}
+
+/*----------------------------------------------------Styling the about section----------------------------------------------------*/
+.about{
+	font-family: 'Ubuntu',sans-serif;
+	min-height: 500px;
+	height: 100vh;
+}
+.about .max-width{
+	width: 80%;
+	height: 100%;
+	margin :auto;
+}
+.about .max-width .about-contents{
+	display: flex;
+	justify-content: space-between;
+}
+.about .max-width .about-contents .profile-image{
+	margin: 20px;
+	width: 45%
+}
+.about .max-width .about-contents .profile-image img{
+	object-fit: cover;
+	height :400px;
+	width: 400px;
+	border-radius: 10px;
+}
+.about .max-width .about-contents .contents{
+	border: 3px none green;
+	margin-top: 80px;
+	width : 55%;
+}
+.about .max-width .about-contents .contents p{
+	font-size: 22px;
+	text-align: justify;
+	font-weight: 500;
+}
+.about .max-width .about-contents .contents .resume-link{
+	background-color: crimson;
+	margin-top: 30px;
+	padding: 10px;
+	font-weight: 500;
+	font-size: 30px;
+	border: 3px solid crimson;
+	color: #ffffff;
+	width: 15vw;
+	text-align: center;
+	border-radius: 15px;
+}
+.about .max-width .about-contents .contents .resume-link:hover{
+	background-color: #ffffff;
+	color: crimson;
+}
+.about .title{
+	margin-bottom: 45px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	color: #000000s;
 }
