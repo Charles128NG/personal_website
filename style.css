@@ -1,3 +1,6 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 *{
 	margin: 0;
     padding: 0;
@@ -205,7 +208,7 @@ footer{
 	text-align: center;
 	font-weight: bolder;
 }
-/*---------------------------------------------styling qualification section---------------------------------------------*/
+/*---------------------------------------------styling skills section---------------------------------------------*/
 .skills{
 	font-family: 'Ubuntu',sans-serif;
 	min-height: 500px;
@@ -232,7 +235,7 @@ footer{
 	color: crimson;
 }
 .skills .max-width blockquote::after{	
-	content: "- Aryan Negi";
+	content: "- Albert Einstein";
 }
 .skills .max-width .Technical{
 	display: flex;
@@ -255,6 +258,9 @@ footer{
 	border :3px none crimson;
 	border-radius: 5px;
 	width: calc(50% - 30px);
+}
+.skills .max-width .Technical .score{
+	color: crimson;
 }
 .skills .max-width .non-Technical{
 	display: flex;
@@ -310,7 +316,7 @@ footer{
 	color: #dddddd;
 }
 .experience .max-width blockquote::after{
-	content: "- Aryan Negi";
+	content: "- Julius Caesar";
 }
 .experience .max-width .title{
 	font-size: 40px;
@@ -360,11 +366,13 @@ footer{
 .contact .max-width blockquote{
 	font-size: 20px;
 	font-weight: 200;
-	color: #111111;
-	margin: 10px;
+	color: crimson;
+	margin-top : 10px;
+	margin-bottom: 60px;
 }
 .contact .max-width blockquote::after{
 	content: "- Henry Ford";
+
 }
 .contact .max-width hr{
 	color: crimson;
@@ -374,8 +382,27 @@ footer{
 }
 .contact .max-width .contact-icons{
 	display: flex;
-	border :3px solid black;
-	height: 300px;
-	padding: 100px;
+	margin: auto;
+	width: 60%;
+	padding: 80px;
 	justify-content: space-between;
+}
+/*-------------icons------------*/
+.fa{
+	padding: 10px;
+	font-size: 50px;
+	text-align: center;
+	border-radius: 15px;
+}
+.fa-linkedin{
+	background-color: #007bb5;
+	color: #fff;
+}
+.fa-github{
+	background-color: #171515;
+	color: #fff;
+}
+.fa-envelope{
+	background-color: red;
+	color: #fff;
 }
