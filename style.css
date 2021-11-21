@@ -198,3 +198,81 @@ section{
 	font-weight: bolder;
 }
 /*---------------------------------------------styling qualification section---------------------------------------------*/
+.skills{
+	font-family: 'Ubuntu',sans-serif;
+	min-height: 500px;
+	height: 110vh;
+}
+.skills .max-width{
+	width: 80%;
+	height: 100%;
+	margin :auto;
+	display: block;
+}
+.skills .title{
+	margin-bottom: 45px;
+	margin-top: 25px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	color: #000000;
+}
+.skills .max-width blockquote{
+	font-size: 20px;
+	font-weight: 100;
+	color: crimson;
+}
+.skills .max-width .Technical{
+	display: flex;
+	justify-content: space-between;
+}
+.skills .max-width .subtitle{
+	text-align: center;
+	font-size: 33px;
+	font-weight: 350;
+	color: crimson;
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
+.skills .max-width .Technical .left{
+	border :3px none crimson;
+	border-radius: 5px;
+	width: calc(50% - 30px);
+}
+.skills .max-width .Technical .right{
+	border :3px none crimson;
+	border-radius: 5px;
+	width: calc(50% - 30px);
+}
+.skills .max-width .non-Technical{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.skills .max-width .non-Technical .left{
+	border :3px none crimson;
+	border-radius: 5px;
+	width: calc(50% - 30px);
+}
+.skills .max-width .non-Technical .right{
+	border :3px none crimson;
+	border-radius: 5px;
+	width: calc(50% - 30px);
+}
+.skills .max-width ul{
+	list-style: none;
+}
+.skills .max-width li{
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #111111;
+}
+.skills .max-width .score{
+	float: right;
+}
+.skills .max-width hr{
+	margin: 10px;
+	color: crimson;
+	border-radius: 5px;
+}
