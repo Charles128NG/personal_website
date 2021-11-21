@@ -11,6 +11,14 @@ html{
 section{
 	padding:  100px 0px;
 }
+footer{
+	height: 50px;
+	background-color: #000000;
+	color: crimson;
+	font-size: 35px;
+	font-weight: 100;
+	text-align: center;
+}
 /*-----------------------------------------------------------------------------------------*/
 /* Styling the navbar*/
 .navbar{
@@ -302,10 +310,6 @@ section{
 	color: #dddddd;
 }
 .experience .max-width blockquote::after{
-	/*font-weight: 200;
-	font-size: 20px;
-	color: #dddddd;
-	*/
 	content: "- Aryan Negi";
 }
 .experience .max-width .title{
@@ -334,4 +338,44 @@ section{
 	font-size: 25px;
 	font-weight: 400;
 	margin: 10px;
+}
+/*---------------------------------------------styling contact section---------------------------------------------*/
+.contact{
+	font-family: 'Ubuntu',sans-serif;
+	min-height: 500px;
+	height: 100vh;
+	color: #000000;
+}
+.contact .max-width{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+.contact .max-width .title{
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.contact .max-width blockquote{
+	font-size: 20px;
+	font-weight: 200;
+	color: #111111;
+	margin: 10px;
+}
+.contact .max-width blockquote::after{
+	content: "- Henry Ford";
+}
+.contact .max-width hr{
+	color: crimson;
+	height: 0.5px;
+	border-radius: 5px;
+	margin: 20px;
+}
+.contact .max-width .contact-icons{
+	display: flex;
+	border :3px solid black;
+	height: 300px;
+	padding: 100px;
+	justify-content: space-between;
 }
