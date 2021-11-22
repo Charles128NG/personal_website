@@ -25,13 +25,19 @@ footer{
 /*-----------------------------------------------------------------------------------------*/
 /* Styling the navbar*/
 .navbar{
-	background: crimson;
 	position: fixed;
 	width: 100%;
     z-index:10;
-    padding: 30px 0;
+    padding-top: 30px;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+}
+.sticky{
+	position: fixed;
+	background: crimson;
+	padding: 30px 0px;
+	z-index:10;
+	width: 100%;
 }
 .navbar .max-width{
 	align-items: center;
@@ -50,16 +56,16 @@ footer{
 .navbar .menu li a{
 	display: block;
     color: #fff;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
-/*.menu-btn{
+.menu-btn{
 	color: #fff;
     font-size: 23px;
     cursor: pointer;
-    /*display: none;*/
+    display: none;
 }
 
 .title{
@@ -213,7 +219,7 @@ footer{
 	font-family: 'Ubuntu',sans-serif;
 	min-height: 500px;
 	height: 130vh;
-	padding: 90px ,0px;
+	padding: 90px;
 }
 .skills .max-width{
 	width: 80%;
@@ -412,7 +418,25 @@ footer span:hover{
 }
 /*responsive media queries*/
 
-@media(max-width: 1070px){
+@media(max-width: 860px){
+	/*Navbar*/
+	.menu-btn{
+		display: block;
+		z-index: 10;
+	}
+	.navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+}
+@media screen and (max-width: 1080px){
 	section{
 		padding:  50px 0px;
 	}
