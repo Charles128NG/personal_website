@@ -337,8 +337,17 @@ footer{
 	margin: 25px;
 }
 .experience .max-width .carousel{
+	display: flex;
 	border: 3px solid crimson;
 	height: 400px;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.experience .max-width .carousel .card{
+	border:  2px solid green;
+	height: 300px;
+	width: 350px;
+	
 }
 .experience .max-width .intern{
 }
