@@ -81,7 +81,7 @@ footer{
 /*----------------------------------------------------Styling the home section----------------------------------------------------*/
 .home{
 	display: flex;
-	background: url("https://www.teahub.io/photos/full/8-81348_adh-paysage-3d-name-wallpapers-make-your-name.jpg") no-repeat center;
+	background: url("background.png") no-repeat center;
 	font-family: 'Ubuntu',sans-serif;
 	background-size: cover;
 	min-height: 500px;
