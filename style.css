@@ -113,8 +113,7 @@ footer{
 }
 .home-content span{
 	font-size: 50px;
-	font-weight: bold;
-	color:  crimson;
+		color:  crimson;
 }
 
 /*----------------------------------------------------Styling the about section----------------------------------------------------*/
@@ -600,4 +599,47 @@ footer span:hover{
 		margin: auto;
 		padding: 50px;
 	}
+	.dispTxt1{
+		font-size: 45px;
+		font-weight: bold;
+		color: #ffffff;
+	}
+	.dispTxt2, .dispTxt0{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 25px;
+		font-weight: normal;
+		color: #ffffff;
+	}
+	.home-content span{
+		font-size: 30px;
+		color:  crimson;
+	}
+}
+@media(max-width: 500px){
+	.about{
+		height: 120vh;
+	}
+	.qualification{
+		height: 110vh;
+	}
+	.skills{
+		height: 180vh;
+	}
+	.skills .max-width{
+		width: 100%;
+	}
+	.skills .max-width .Technical{
+		width: 100%;
+		display: block;
+		justify-content: space-between;
+	}
+	.skills .max-width .Technical .left{
+		width: 100%;
+		margin: auto;
+	}
+	.skills .max-width .Technical .right{
+		width: 100%;
+		margin: auto;
+	}	
 }
