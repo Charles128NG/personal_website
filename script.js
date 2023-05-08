@@ -40,7 +40,7 @@ $(document).ready(function(){
 
 	/*For Typing Animation*/
 	var type = new Typed('.typing',{
-		strings: ["Student", "Web Developer", "Python Developer", "C++ Developer", "Space Enthusiast"],
+		strings: ["Student", "Python Developer", "C++ Developer", "ML Enthusiast","Space Enthusiast"],
         typeSpeed: 80,
         backSpeed: 60,
         loop: true
