@@ -305,7 +305,7 @@ footer{
 .experience{
 	font-family: 'Ubuntu',sans-serif;
 	min-height: 500px;
-	height: 130vh;
+	height: 150vh;
 	color: #ffffff;
 	background-color: #000000;
 }
@@ -395,9 +395,21 @@ footer{
 	text-align: justify;
 }
 .experience .max-width .intern .contents li{
-	font-size: 25px;
+	font-size: 30px;
 	font-weight: 400;
-	margin: 10px;
+	margin: 15px;
+}
+.experience .max-width .intern .contents ld p{
+	/*border:3px solid red;*/
+	padding:10px;
+	margin-left: 10px;
+}
+.intern{
+	/*border: 3px solid red;*/
+	width:80%;
+	padding:auto;
+	margin:auto;
+	line-height: 30px;
 }
 /*---------------------------------------------styling contact section---------------------------------------------*/
 .contact{
